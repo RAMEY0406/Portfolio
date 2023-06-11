@@ -1,0 +1,22 @@
+.head-title h1{
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10vh;
+}
+.from{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    color: #fff;
+}
+.btn{
+    background-color: blue;
+    color: #fff;
+}

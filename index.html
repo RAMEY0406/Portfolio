@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="shortcut icon" type="x-icon" href="img/icon-256x256.png">
+    <link href="https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="index.html">RA MEY</a>
+                <i class="fa-solid fa-person"></i>
+            </div>
+            <!-- dark mode -->
+            <div class="sun">
+                <i class="fa-solid fa-moon" onclick="changeMode()"></i>
+            </div>
+            <ul class="links">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            
+            <div class="social_media">
+                <a href="https://www.facebook.com/bong.chen.3975?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://t.me/RA_MEY1"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.tiktok.com/@ra_mey0?_t=8bcBmymznsH&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html" class="action_btn">About Me</a></li>
+                <div class="social_media">
+                    <a href="https://www.facebook.com/bong.chen.3975?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://t.me/RA_MEY1"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.tiktok.com/@ra_mey0?_t=8bcBmymznsH&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+        </div>
+    </header>
+
+    <!-- content -->
+    <div class="container">
+        <div class="box1">
+            <p data-aos="fade-down" data-aos-eseing="ease-in-out">Hello<span>...!</span></p><br>
+            <h1 data-aos="fade-right" data-aos-eseing="ease-in-out">I'm_<span id="animate"></span></h1><br>
+            <h2 data-aos="fade-left" data-aos-eseing="ease-in-out">Web-Designer</h2><br>
+            <h3 data-aos="fade-right" data-aos-eseing="ease-in-out">
+                I am a third year student of the Royal University of Phnom Penh (RUPP) and currently I am a Web-Designer.
+            </h3><br>
+            <a  href="about.html" class="action_btn">About Me</a>
+        </div>
+        <div class="box2">
+            <img data-aos="fade-down" data-aos-eseing="ease-in-out" src="img/icon-256x256.png" alt="">
+        </div>
+    </div>
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>RA MEY</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="">RA MEY Coding</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End  Footer -->
+    
+
+</body>
+<!-- Animation Text -->
+
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+  var typed = new Typed('#animate', {
+    strings: ["RAMEY","Coding",],
+    typeSpeed: 200,
+    backSpeed: 200,
+    loop: true
+  });
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 2000,
+    });
+</script>
+<script src="assets/main.js"></script>
+</html>
